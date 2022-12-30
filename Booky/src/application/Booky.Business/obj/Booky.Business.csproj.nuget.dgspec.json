@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eg/src/Booky/Booky/src/application/Booky.Business/Booky.Business.csproj": {}
+  },
+  "projects": {
+    "/Users/eg/src/Booky/Booky/src/application/Booky.Business/Booky.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eg/src/Booky/Booky/src/application/Booky.Business/Booky.Business.csproj",
+        "projectName": "Booky.Business",
+        "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Business/Booky.Business.csproj",
+        "packagesPath": "/Users/eg/.nuget/packages/",
+        "outputPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/eg/src/Booky/Booky/src/application/Booky.Common/Booky.Common.csproj": {
+                "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Common/Booky.Common.csproj"
+              },
+              "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj": {
+                "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj"
+              },
+              "/Users/eg/src/Booky/Booky/src/application/Booky.Repository/Booky.Repository.csproj": {
+                "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Repository/Booky.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eg/src/Booky/Booky/src/application/Booky.Common/Booky.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eg/src/Booky/Booky/src/application/Booky.Common/Booky.Common.csproj",
+        "projectName": "Booky.Common",
+        "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Common/Booky.Common.csproj",
+        "packagesPath": "/Users/eg/.nuget/packages/",
+        "outputPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj",
+        "projectName": "Booky.Domain",
+        "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj",
+        "packagesPath": "/Users/eg/.nuget/packages/",
+        "outputPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eg/src/Booky/Booky/src/application/Booky.Infrastructure/Booky.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eg/src/Booky/Booky/src/application/Booky.Infrastructure/Booky.Infrastructure.csproj",
+        "projectName": "Booky.Infrastructure",
+        "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Infrastructure/Booky.Infrastructure.csproj",
+        "packagesPath": "/Users/eg/.nuget/packages/",
+        "outputPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj": {
+                "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eg/src/Booky/Booky/src/application/Booky.Repository/Booky.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eg/src/Booky/Booky/src/application/Booky.Repository/Booky.Repository.csproj",
+        "projectName": "Booky.Repository",
+        "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Repository/Booky.Repository.csproj",
+        "packagesPath": "/Users/eg/.nuget/packages/",
+        "outputPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj": {
+                "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Domain/Booky.Domain.csproj"
+              },
+              "/Users/eg/src/Booky/Booky/src/application/Booky.Infrastructure/Booky.Infrastructure.csproj": {
+                "projectPath": "/Users/eg/src/Booky/Booky/src/application/Booky.Infrastructure/Booky.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.25.1" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Booky.Common\Booky.Common.csproj" />
+      <ProjectReference Include="..\Booky.Domain\Booky.Domain.csproj" />
+      <ProjectReference Include="..\Booky.Repository\Booky.Repository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="BookAuthor" />
+    </ItemGroup>
+
+</Project>
